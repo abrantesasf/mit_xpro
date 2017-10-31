@@ -15,7 +15,7 @@ O problema é a dificuldade da análise dessa quantidade enorme de dados. Este c
 torná-lo um cientista de dados e estatístico excelente.
 
 ## Estrutura do curso
-* Módulo 1: **Making Sense of Unstructures Data**
+* Módulo 1: **Making Sense of Unstructured Data**
   * Introduction
   * Clustering
   * Spectral Clustering
