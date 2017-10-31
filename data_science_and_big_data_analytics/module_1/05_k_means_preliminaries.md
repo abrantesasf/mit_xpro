@@ -16,7 +16,12 @@ São 5 as principais vantagens do K-Means:
 os datapoints. Essa distância pode ser medida por diversas formas, mas a mais comum é a
 **Distância Euclidiana**. E particularmente calculamos o **quadrado** da distância Euclidiana. Assim,
 a distância entre dois datapoints é a soma da distância euclidiana entre esses pontos:
-$dis(x, y) = \sum{d=1}{D} (X_d - Y_d)^2$
+$dis(a,b, \cdots, z) = \sum_{d=1}^{D} \left ( A_d - B_d - \cdots - Z_d\right )^2$
+4. Nós esperamos um número *K* de clusters, a priori, ou seja: temos que ter uma estimativa a priori
+do número de clusters K para alocar os datapoints. As vezes não sabemos esse número de cluster K a priori
+(existem métodos para determinar isso), mas o K-Means assume que você sabe esse número K de cluster a priori.
+5. É possível obter um *cluster center* para cada cluster, denominado por $\mu_k$, e o conjunto de dados
+alocado a cada ponto ($S_k$).
 
 |             |Feature 1      |Feature 2      |Feature 3      |...|Feature D      |
 |-------------|---------------|---------------|---------------|---|---------------|
