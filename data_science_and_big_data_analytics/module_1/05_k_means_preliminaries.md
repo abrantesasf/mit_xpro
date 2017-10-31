@@ -12,6 +12,11 @@ São 5 as principais vantagens do K-Means:
 ## Pressupostos do K-Means:
 1. Todos os datapoints devem ser expressos como uma lista ou vetor de **valores contínuos**
 2. Teremos N datapoints, em D dimensões (D features)
+3. Similaridade é medida através da dissimilaridade entre os pontos, ou seja, pela distância entre
+os datapoints. Essa distância pode ser medida por diversas formas, mas a mais comum é a
+**Distância Euclidiana**. E particularmente calculamos o **quadrado** da distância Euclidiana. Assim,
+a distância entre dois datapoints é a soma da distância euclidiana entre esses pontos:
+$$dis(x, y) = \sum{d=1}{D} (X_d - Y_d)^2$$
 
 |             |Feature 1      |Feature 2      |Feature 3      |...|Feature D      |
 |-------------|---------------|---------------|---------------|---|---------------|
