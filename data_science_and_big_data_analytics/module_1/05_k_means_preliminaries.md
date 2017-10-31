@@ -16,7 +16,7 @@ São 5 as principais vantagens do K-Means:
 os datapoints. Essa distância pode ser medida por diversas formas, mas a mais comum é a
 **Distância Euclidiana**. E particularmente calculamos o **quadrado** da distância Euclidiana. Assim,
 a distância entre dois datapoints é a soma da distância euclidiana entre esses pontos:
-$$dis(x, y) = \sum{d=1}{D} (X_d - Y_d)^2$$
+$dis(x, y) = \sum{d=1}{D} (X_d - Y_d)^2$
 
 |             |Feature 1      |Feature 2      |Feature 3      |...|Feature D      |
 |-------------|---------------|---------------|---------------|---|---------------|
