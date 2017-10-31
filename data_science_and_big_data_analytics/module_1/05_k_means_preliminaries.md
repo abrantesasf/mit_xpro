@@ -13,10 +13,10 @@ São 5 as principais vantagens do K-Means:
 1. Todos os datapoints devem ser expressos como uma lista ou vetor de **valores contínuos**
 2. Teremos N datapoints, em D dimensões (D features)
 
-|    |Feature 1|Feature 2|Feature 3|...|Feature D|
-|----|---------|---------|---------|---|---------|
-|X~1~|X~1,1~   |X~1,2~   |X~1,3~   |...|X~1,D~   |
-|X~2~|X~2,1~   |X~2,2~   |X~2,3~   |...|X~2,D~   |
-|X~3~|X~3,1~   |X~3,2~   |X~3,3~   |...|X~3,D~   |
-|... |...      |...      |...      |...|...      |
-|X~N~|X~N,1~   |X~N,2~   |X~N,3~   |...|X~N,D~   |
+|             |Feature 1      |Feature 2      |Feature 3      |...|Feature D      |
+|-------------|---------------|---------------|---------------|---|---------------|
+|X<sub>1</sub>|X<sub>1,1</sub>|X<sub>1,2</sub>|X<sub>1,3</sub>|...|X<sub>1,D</sub>|
+|X<sub>2</sub>|X<sub>2,1</sub>|X<sub>2,2</sub>|X<sub>2,3</sub>|...|X<sub>2,D</sub>|
+|X<sub>3</sub>|X<sub>3,1</sub>|X<sub>3,2</sub>|X<sub>3,3</sub>|...|X<sub>3,D</sub>|
+|...          |...            |...            |...            |...|...            |
+|X<sub>N</sub>|X<sub>N,1</sub>|X<sub>N,2</sub>|X<sub>N,3</sub>|...|X<sub>N,D</sub>|
