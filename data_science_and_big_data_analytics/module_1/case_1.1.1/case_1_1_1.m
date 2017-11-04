@@ -1,5 +1,5 @@
 %% PCA e K-Means para decifrar o genoma
-% Abrantes Araújo Silva Filho (abrantesasf@gmail.com)
+% Abrantes Araújo Silva Filho (<http://abrantesfilho.com> --- abrantesasf@gmail.com)
 %
 % Este é um
 % estudo de caso reproduzindo a análise de *Alexander N. Gorban* e *Andrei
@@ -233,5 +233,16 @@ GenBrowser(dna, 300, fragn, 13000);
 %% Acesso ao dataset e códigos:
 % O dataset de DNA da bactéria e as funções para MATLAB (tanto as
 % fornecidas pelos autores originais, quanto as que eu preparei), estão
-% disponíveis em meu repositório GitHub em:
-% 
+% disponíveis em
+% <https://github.com/abrantesasf/mit_xpro/tree/master/data_science_and_big_data_analytics/module_1/case_1.1.1 meu repositório GitHub.>
+%
+% O texto original dos autores, _PCA and K-Means Decipher Genome_, publicado no livro
+% _*Principal Manifolds for Data
+% Visualization and Dimension Reduction (Lecture Notes in Computational
+% Science and Engineering)*_, pode ser baixado
+% na íntegra no site do autor (<http://www.ihes.fr/~zinovyev/>).
+%
+% O livro
+% pode ser
+% <https://www.amazon.com.br/gp/product/3540737499/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=3540737499&linkCode=as2&tag=abrantesasf01-20&linkId=5334538bfcf0a64c5db86324d8cd1829
+% adquirido na Amazon>.
